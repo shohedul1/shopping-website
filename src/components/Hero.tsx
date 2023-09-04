@@ -21,14 +21,14 @@ function Hero() {
       const slideData =[
         {
             id:0,
-            img:"/banner-1.jpg",
+            img:"/banner-2.jpg",
             title:"Trending Item",
             mainTitle:"WMEN'S LATEST FASHION SALE",
             price:"$20",
         },
         {
             id:1,
-            img:"/banner-2.jpg",
+            img:"/banner-1.jpg",
             title:"Trending Accessories",
             mainTitle:"MODERN SUNGLASSES",
             price:"$15",
