@@ -1,6 +1,5 @@
 import React from 'react';
 import {BsFacebook,BsTwitter,BsInstagram,BsLinkedin} from "react-icons/bs";
-import { name } from './../../.next/server/app/page';
 
 
 
