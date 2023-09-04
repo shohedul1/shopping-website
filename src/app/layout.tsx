@@ -3,6 +3,12 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import HeaderMain from '@/components/HeaderMain'
+import Navebar from '@/components/Navebar'
+
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +27,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <HeaderTop/>
         <HeaderMain/>
+        <Navebar/>
         {children}
       </body>
     </html>
